@@ -14,4 +14,8 @@ public class EvenOrOddTest {
         EvenOrOdd evenOrOdd = new EvenOrOdd();
         assertTrue(evenOrOdd.isEven(4));
     }
+    @Test
+    public void shouldPass(){
+        assertTrue(true);
+    }
 }
